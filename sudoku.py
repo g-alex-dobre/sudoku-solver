@@ -30,13 +30,6 @@ def complete_missing_nums(list1):
     return new_list
 
 
-def get_max(list):
-    maxim = "9"
-    for item in list:
-        if len(item) > 1:
-            maxim = item
-    return maxim
-
 def getBlocks(board):
     answer = []
     for r in range(3):
